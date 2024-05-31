@@ -12,7 +12,8 @@ mailrouter.post('/', (req, res) => {
             pass: 'yglubdayulcahfhr'
         }
     });
-    const html = `<p>Hi,I am ${name}</p>
+    const html = `<p>Mail from ${email}</p>
+    <p>Hi,I am ${name}</p>
     <p>${message}</p>
     
     `
