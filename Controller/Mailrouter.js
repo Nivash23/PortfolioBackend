@@ -33,7 +33,9 @@ mailrouter.post('/', (req, res) => {
             console.log(info.response)
         }
     })
-    res.status(200).send('Mail sented successfully..')
+    res.status(200).send({
+        message:"Message send Sucessfully... "
+    })
 
     
 
